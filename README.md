@@ -1,4 +1,8 @@
-# Demo of IBM Watson Studio AutoAI's Tool 
+# Demo of IBM's Watson Studio AutoAI to Predict Titanic's survivors
+
+## A 3-minute video of the demo can be downloaded from [here](https://ibm.box.com/s/62ngb7y0cppespkty308a3u9r2jdjg3o). 
+
+## The step-by-step instructions to build the demo are the following: 
 
 1. If you don't an IBM cloud account, navigate to <https://cloud.ibm.com/registration> to create one. Otherwise, sign-in using your IBM coud account here: <https://cloud.ibm.com/login>
 
@@ -31,4 +35,6 @@ A project is the key structure of Watson Studio to develop data science experime
 
 1. Let's select the column to predict the titanic survivors: `Survived` which is a binary (takes only the values 0 = not survived or 1 = survived). The quality metric is automatically selected for you: the ROC AUC is the standard quality metric for binary classification problems. Click `Run experient`. ![](https://github.com/IBMDataScience/autoai/blob/master/images/survived-run-experiment.png)
 
-1. The rest is waiting for AutoAI to train several pipelines and show you the best in the leaderboard. You should see the first trained pipeline in less than one minute. ![](https://github.com/IBMDataScience/autoai/blob/master/images/pipeline-leaderboard.png)
+1. The rest is waiting for AutoAI to train several pipelines and show you the best in the leaderboard. You should see the first trained pipeline in less than one minute. Once the run is completed, we can check the pipeline leaderboard to see the winner. More over, we can click the pipeline to drill down into quality metrics, confusion matrix, model information and feature importance. In this example, the most important feature to explain Titanic survivors was the sex of the passenger. ![](https://github.com/IBMDataScience/autoai/blob/master/images/pipeline-leaderboard.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/model-evaluation.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/conf-matrix.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/model-information.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/feature-importance.png) 
+
+1. To save your pipeline (and deploy as a REST API) click `Save as model` on the top right and `Save`. This action will save your model as an asset in your project. ![](https://github.com/IBMDataScience/autoai/blob/master/images/save-as-model.png)
