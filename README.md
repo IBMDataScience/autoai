@@ -27,4 +27,8 @@ A project is the key structure of Watson Studio to develop data science experime
 
 1. If you already have a Watson Machine Learning (WML) service, just name your experiment and click `Create` (go to the next step). Otherwise, add a WML service by clicking `Associate a Machine Learning instance` then `Create` and `Confirm`. Now you can `Reload` the experiment creation page to get your WML service attached. Click `Create`. ![](https://github.com/IBMDataScience/autoai/blob/master/images/add-wml.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/create-experiment.png)
 
-1. 
+1. AutoAI only needs to be pointed to a dataset and a column to predict in the dataset. Easy. LEt's choose the `titanic.csv` after clicking the `Select from project` blue button. Click `Select asset`. ![](https://github.com/IBMDataScience/autoai/blob/master/images/select-data-from-project.png) ![](https://github.com/IBMDataScience/autoai/blob/master/images/select-titanic.png)
+
+1. Let's select the column to predict the titanic survivors: `Survived` which is a binary (takes only the values 0 = not survived or 1 = survived). The quality metric is automatically selected for you: the ROC AUC is the standard quality metric for binary classification problems. Click `Run experient`. ![](https://github.com/IBMDataScience/autoai/blob/master/images/survived-run-experiment.png)
+
+1. The rest is waiting for AutoAI to train several pipelines and show you the best in the leaderboard. You should see the first trained pipeline in less than one minute. ![](https://github.com/IBMDataScience/autoai/blob/master/images/pipeline-leaderboard.png)
