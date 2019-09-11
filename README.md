@@ -2,7 +2,7 @@
 
 ## A 3-minute video of the demo can be downloaded from [here](https://ibm.box.com/s/62ngb7y0cppespkty308a3u9r2jdjg3o). 
 
-## The step-by-step instructions to build the demo are the following: 
+### Here are the step-by-step instructions to build the demo on your own:
 
 1. If you don't an IBM cloud account, navigate to <https://cloud.ibm.com/registration> to create one. Otherwise, sign-in using your IBM coud account here: <https://cloud.ibm.com/login>
 
