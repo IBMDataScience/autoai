@@ -1,6 +1,6 @@
-# Demo of IBM's Watson Studio AutoAI to Predict Titanic's survivors
+# Demo of IBM's Watson Studio AutoAI to Predict Titanic's survivors. [BLOG HERE!](https://towardsdatascience.com/autoai-the-secret-sauce-f42e80b90070)
 
-## A 3-minute video of the demo can be downloaded from [here](https://ibm.box.com/s/62ngb7y0cppespkty308a3u9r2jdjg3o). The video uses the newest version of the AutoAI UI that is not in production yet. Therefore, there will be minor chnages in the UI between the video and the demo that you can build yourself. 
+## A 3-minute video of the demo can be downloaded from [here](https://youtu.be/vxc1B8Dzatc). The video uses the newest version of the AutoAI UI that is not in production yet. Therefore, there will be minor chnages in the UI between the video and the demo that you can build yourself. 
 
 ### Here are the step-by-step instructions to build the demo on your own:
 
